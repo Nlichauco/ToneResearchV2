@@ -1,0 +1,6 @@
+Source,Date,URL,Score,   ,Anger,Fear,Joy,Sad,Analy,Confi,Tenta
+The New York Times,2020-02-12T21:20:28+0000,https://www.nytimes.com/2020/02/12/world/asia/china-coronavirus-cases.html,0, ,0.5,0.5,0.557866,0.5,0.741372,0.5,0.5
+The New York Times,2020-02-10T20:12:52+0000,https://www.nytimes.com/2020/02/10/science/pangolin-coronavirus.html,0, ,0.5,0.5,0.52072,0.5,0.765915,0.5,0.796516
+The New York Times,2020-02-13T01:33:05+0000,https://www.nytimes.com/2020/02/12/health/coronavirus-cases-china.html,0, ,0.5,0.562243,0.5,0.556574,0.5,0.5,0.553827
+The New York Times,2020-02-12T00:10:46+0000,https://www.nytimes.com/2020/02/11/health/coronavirus-quarantine.html,0, ,0.5,0.5,0.5,0.56044,0.580559,0.5,0.673024
+The New York Times,2020-02-12T20:12:02+0000,https://www.nytimes.com/2020/02/12/health/coronavirus-test-kits-cdc.html,0, ,0.5,0.5,0.510002,0.552206,0.5,0.5,0.5

@@ -1,0 +1,12 @@
+Source,Date,URL,Score,   ,Anger,Fear,Joy,Sad,Analy,Confi,Tenta
+The New York Times,2020-02-07T13:56:38+0000,https://www.nytimes.com/2020/02/07/opinion/coronavirus-china-li-wenliang.html,0, ,0.5,0.5,0.523165,0.578775,0.5,0.5,0.5
+The New York Times,2020-02-05T10:01:07+0000,https://www.nytimes.com/2020/02/05/opinion/coronavirus-china-news-journalism.html,0, ,0.5,0.5,0.5,0.560708,0.779959,0.5,0.811889
+The New York Times,2020-02-08T16:00:09+0000,https://www.nytimes.com/2020/02/08/opinion/coronavirus-hong-kong.html,0, ,0.5,0.603742,0.5,0.518858,0.5,0.5,0.5
+The New York Times,2020-02-07T20:00:06+0000,https://www.nytimes.com/2020/02/07/opinion/sunday/china-coronavirus.html,0, ,0.5,0.612985,0.529154,0.57138,0.640537,0.5,0.5
+The New York Times,2020-02-07T17:33:17+0000,https://www.nytimes.com/2020/02/07/opinion/coronavirus-china-doctor.html,0, ,0.5,0.5,0.567688,0.557772,0.5,0.5,0.597888
+The New York Times,2020-02-05T20:35:24+0000,https://www.nytimes.com/2020/02/05/opinion/china-travel-coronavirus.html,0, ,0.5,0.5,0.510655,0.544767,0.826815,0.5,0.594452
+The New York Times,2020-02-06T10:00:19+0000,https://www.nytimes.com/2020/02/06/opinion/the-argument-iowa-caucuses.html,0, ,0.5,0.5,0.516805,0.516934,0.715826,0.5,0.791184
+The New York Times,2020-02-07T22:16:43+0000,https://www.nytimes.com/2020/02/07/opinion/alexander-vindman-nsc-trump.html,0, ,0.5,0.5,0.526621,0.516391,0.5,0.5,0.622544
+The New York Times,2020-02-04T10:00:15+0000,https://www.nytimes.com/2020/02/04/opinion/trump-travel-ban-nigeria.html,0, ,0.5,0.531673,0.5,0.5,0.549608,0.5,0.5
+The New York Times,2020-02-04T22:37:30+0000,https://www.nytimes.com/2020/02/04/opinion/iowa-caucus-election.html,0, ,0.5,0.5,0.517334,0.563786,0.758103,0.5,0.691615
+The New York Times,2020-02-07T19:50:05+0000,https://www.nytimes.com/2020/02/07/opinion/sunday/western-society-decadence.html,0, ,0.5,0.5,0.540105,0.540401,0.605214,0.5,0.503203

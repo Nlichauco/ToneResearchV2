@@ -1,0 +1,21 @@
+Source,Date,URL,Score,   ,Anger,Fear,Joy,Sad,Analy,Confi,Tenta
+The New York Times,2009-10-25T18:36:34+0000,https://www.nytimes.com/2009/10/26/health/26H1N1.html,0, ,0.5,0.581679,0.5,0.565436,0.5,0.5,0.608799
+The New York Times,2009-10-24T19:48:33+0000,https://www.nytimes.com/2009/10/25/us/politics/25flu.html,0, ,0.5,0.525464,0.5,0.545195,0.63419,0.5,0.647266
+The New York Times,2009-10-26T02:42:49+0000,https://www.nytimes.com/2009/10/26/opinion/26shenson.html,0, ,0.5,0.5,0.545875,0.5,0.635358,0.5,0.5
+The New York Times,2009-10-27T17:43:32+0000,https://thecaucus.blogs.nytimes.com/2009/10/27/obama-girls-get-swine-flu-shots/,0, ,0.5,0.58328,0.518828,0.525244,0.56503,0.5,0.632721
+The New York Times,2009-10-23T02:09:33+0000,https://www.nytimes.com/2009/10/23/nyregion/23flu.html,0, ,0.5,0.5,0.52558,0.52871,0.79535,0.5,0.561471
+The New York Times,2009-10-26T02:17:48+0000,https://www.nytimes.com/2009/10/26/health/26flu.html,0, ,0.5,0.619133,0.540591,0.504668,0.637028,0.5,0.607594
+The New York Times,2009-10-26T19:59:00+0000,https://cityroom.blogs.nytimes.com/2009/10/26/blogs/26cityroom-city-pre96615.html,0, ,0.5,0.5,0.5,0.5,0.5,0.5,0.5
+The New York Times,2009-10-26T19:59:00+0000,https://cityroom.blogs.nytimes.com/2009/10/26/city-presses-ahead-with-school-vaccinations/,0, ,0.5,0.5,0.538706,0.5,0.515187,0.5,0.5224
+The New York Times,2009-10-26T11:53:44+0000,https://artsbeat.blogs.nytimes.com/2009/10/26/what-to-watch-monday-heroes-1929-and-cake-boss-back-in-the-bakery/,0, ,0.5,0.5,0.60271,0.5,0.554358,0.5,0.749459
+The New York Times,2009-10-27T02:04:58+0000,https://www.nytimes.com/2009/10/27/nyregion/27cityvaccine.html,0, ,0.5,0.551551,0.5,0.536203,0.525934,0.5,0.570346
+The New York Times,2009-10-26T11:53:44+0000,https://artsbeat.blogs.nytimes.com/2009/10/26/blogs/26artsbeat-what-to-47789.html,0, ,0.5,0.5,0.5,0.878948,0.5,0.5,0.615352
+The New York Times,2009-10-23T00:30:58+0000,https://www.nytimes.com/2009/10/23/world/middleeast/23iraqflu.html,0, ,0.5,0.632032,0.5,0.526326,0.69504,0.5,0.757782
+The New York Times,2009-10-22T23:50:49+0000,https://cityroom.blogs.nytimes.com/2009/10/22/blogs/22cityroom-paterson95757.html,0, ,0.5,0.5,0.5,0.5,0.5,0.5,0.5
+The New York Times,2009-10-23T15:04:15+0000,https://bayarea.blogs.nytimes.com/2009/10/23/blogs/23bayarea-sampler-787.html,0, ,0.5,0.5,0.5,0.5,0.5,0.5,0.5
+The New York Times,2009-10-22T23:42:58+0000,https://www.nytimes.com/2009/10/23/sports/basketball/23nba.html,0, ,0.5,0.5,0.56415,0.5,0.5,0.5,0.5
+The New York Times,2009-10-22T23:50:49+0000,https://cityroom.blogs.nytimes.com/2009/10/22/paterson-rescinds-flu-vaccination-rule/,0, ,0.5,0.5,0.5,0.5,0.5,0.5,0.5
+The New York Times,2009-10-23T15:04:15+0000,https://bayarea.blogs.nytimes.com/2009/10/23/sampler-swine-flu-death-college-garage-sale/,0, ,0.5,0.634497,0.5,0.506074,0.526132,0.5,0.516684
+The New York Times,2009-10-24T20:29:39+0000,https://www.nytimes.com/2009/10/25/weekinreview/25fink.html,0, ,0.5,0.5,0.5,0.544125,0.662319,0.5,0.509414
+The New York Times,2009-10-27T02:53:06+0000,https://www.nytimes.com/2009/10/27/opinion/27herbert.html,0, ,0.567511,0.5,0.586715,0.616428,0.5,0.5,0.667549
+The New York Times,2009-10-23T18:00:59+0000,https://www.nytimes.com/2009/10/24/us/politics/24obama.text.html,0, ,0.5,0.5,0.68187,0.540256,0.604247,0.5,0.5

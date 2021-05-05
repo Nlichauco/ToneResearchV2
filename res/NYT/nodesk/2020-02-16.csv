@@ -1,0 +1,10 @@
+Source,Date,URL,Score,   ,Anger,Fear,Joy,Sad,Analy,Confi,Tenta
+Guardian,2020-02-16T07:22:00Z,https://www.theguardian.com/world/2020/feb/15/coronavirus-the-huge-unknows-by-robin-mckie,0, ,0.5,0.608648,0.521138,0.526607,0.749558,0.5,0.64294
+Guardian,2020-02-18T12:00:26Z,https://www.theguardian.com/society/2020/feb/18/gps-overstretched-planning-coronavirus,0, ,0.5,0.587056,0.5,0.5,0.734408,0.5,0.79036
+Guardian,2020-02-21T13:47:11Z,https://www.theguardian.com/world/2020/feb/21/who-is-most-at-risk-of-contracting-coronavirus,0, ,0.5,0.511756,0.523955,0.569324,0.760595,0.5,0.806914
+Guardian,2020-02-18T06:00:19Z,https://www.theguardian.com/world/2020/feb/18/uk-hospital-apologises-for-signs-to-coronavirus-isolation-facility-middlesbrough,0, ,0.5,0.588566,0.5,0.552617,0.629666,0.5,0.5
+Guardian,2020-02-18T11:13:03Z,https://www.theguardian.com/music/2020/feb/18/ozzy-osbourne-cancels-us-tour-ill-health-parkinsons,0, ,0.5,0.5,0.5,0.66647,0.5,0.5,0.5
+Guardian,2020-02-16T16:33:53Z,https://www.theguardian.com/world/2020/feb/16/coronavirus-more-than-3000-britons-tested,0, ,0.5,0.515977,0.60734,0.511512,0.5,0.5,0.5
+Guardian,2020-02-16T07:00:23Z,https://www.theguardian.com/commentisfree/2020/feb/16/observer-view-on-coronavirus,0, ,0.5,0.5,0.521303,0.571127,0.719425,0.5,0.638406
+Guardian,2020-02-17T16:02:40Z,https://www.theguardian.com/sport/2020/feb/17/nicky-henderson-stable-tour-buveur-dair-on-way-back-cheltenham-festival-2021-horse-racing,0, ,0.5,0.540817,0.61313,0.550143,0.5,0.5,0.836882
+Guardian,2020-02-16T08:13:23Z,https://www.theguardian.com/theobserver/2020/feb/16/coronavirus-outbreak-hove-community,0, ,0.501215,0.641496,0.573321,0.5,0.515758,0.5,0.5

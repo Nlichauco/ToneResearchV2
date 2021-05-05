@@ -1,0 +1,27 @@
+Source,Date,URL,Score,   ,Anger,Fear,Joy,Sad,Analy,Confi,Tenta
+The New York Times,2020-05-12T10:00:09+0000,https://www.nytimes.com/2020/05/12/sports/baseball/coronavirus-youth-baseball-tournament-missouri.html,0, ,0.5,0.5,0.5,0.536142,0.648635,0.5,0.630461
+The New York Times,2020-05-12T07:00:10+0000,https://www.nytimes.com/2020/05/12/sports/coronavirus-belarus-soccer-fans.html,0, ,0.5,0.5,0.579362,0.533601,0.581063,0.5,0.743296
+The New York Times,2020-05-12T09:00:37+0000,https://www.nytimes.com/2020/05/12/sports/baseball/minor-leagues-mlb-takeover.html,0, ,0.5,0.5,0.5,0.531599,0.54529,0.5,0.539205
+The New York Times,2020-05-12T23:13:26+0000,https://www.nytimes.com/2020/05/12/sports/coronavirus-ufc.html,0, ,0.5,0.5,0.551206,0.5,0.5,0.5,0.5
+The New York Times,2020-05-13T19:25:25+0000,https://www.nytimes.com/2020/05/13/sports/golf/pga-tour-resume.html,0, ,0.5,0.5,0.600244,0.5,0.5,0.5,0.5
+The New York Times,2020-05-15T17:57:50+0000,https://www.nytimes.com/2020/05/15/sports/tennis/coronavirus-ron-yu-tennis.html,0, ,0.5,0.5,0.585239,0.582093,0.5,0.5,0.808834
+The New York Times,2020-05-15T23:22:33+0000,https://www.nytimes.com/2020/05/15/sports/baseball/mlb-rob-manfred-blake-snell.html,0, ,0.5,0.5,0.526702,0.553543,0.510326,0.5,0.596857
+The New York Times,2020-05-14T19:06:46+0000,https://www.nytimes.com/2020/05/14/sports/golf/pga-lpga-tour-caddies-coronavirus.html,0, ,0.5,0.5,0.519996,0.518567,0.610438,0.5,0.5
+The New York Times,2020-05-13T19:51:14+0000,https://www.nytimes.com/2020/05/13/sports/one-size-wont-fit-all-for-the-return-of-sports.html,0, ,0.5,0.5,0.541282,0.550556,0.670996,0.5,0.841262
+The New York Times,2020-05-16T09:00:14+0000,https://www.nytimes.com/2020/05/16/sports/baseball/coronavirus-sports-comeback.html,0, ,0.5,0.5,0.557158,0.605522,0.664994,0.5,0.5
+The New York Times,2020-05-13T21:56:55+0000,https://www.nytimes.com/2020/05/13/sports/ncaafootball/cal-state-college-football-coronavirus.html,0, ,0.5,0.5,0.557759,0.5,0.771599,0.5,0.5
+The New York Times,2020-05-16T07:00:06+0000,https://www.nytimes.com/2020/05/16/sports/coronavirus-trout-fishing.html,0, ,0.5,0.5,0.5,0.5,0.5,0.5,0.614523
+The New York Times,2020-05-15T16:32:52+0000,https://www.nytimes.com/2020/05/15/sports/olympics/rudy-garcia-tolson-paralympics.html,0, ,0.5,0.5,0.592683,0.560058,0.5,0.5,0.566875
+The New York Times,2020-05-15T21:47:08+0000,https://www.nytimes.com/2020/05/15/sports/soccer/bundesliga-rory-smith.html,0, ,0.5,0.5,0.528532,0.524761,0.615237,0.5,0.768192
+The New York Times,2020-05-13T20:45:58+0000,https://www.nytimes.com/2020/05/13/sports/tennis/coronavirus-us-open-usta.html,0, ,0.5,0.5,0.5,0.59274,0.5,0.5,0.5
+The New York Times,2020-05-14T05:00:09+0000,https://www.nytimes.com/2020/05/14/sports/soccer/marcus-rashford-charity.html,0, ,0.5,0.5,0.573918,0.5469,0.732287,0.5,0.504257
+The New York Times,2020-05-13T14:00:07+0000,https://www.nytimes.com/2020/05/13/sports/basketball/when-nba-come-back.html,0, ,0.5,0.5,0.586364,0.528202,0.581453,0.5,0.5
+The New York Times,2020-05-12T11:00:14+0000,https://www.nytimes.com/2020/05/12/sports/horse-racing/coronavirus-horse-racing.html,0, ,0.5,0.5,0.61461,0.501424,0.5,0.5,0.5
+The New York Times,2020-05-11T20:56:18+0000,https://www.nytimes.com/2020/05/11/sports/baseball/coronavirus-baseball-mlb-restart.html,0, ,0.5,0.5,0.526214,0.5,0.736925,0.5,0.5
+The New York Times,2020-05-11T16:49:35+0000,https://www.nytimes.com/2020/05/11/sports/soccer/zlatan-ibrahimovic-milan-taiwan.html,0, ,0.5,0.5,0.520232,0.528533,0.5,0.5,0.803334
+The New York Times,2020-05-10T22:19:46+0000,https://www.nytimes.com/2020/05/10/sports/UFC-249-dana-white-joe-rogan.html,0, ,0.5,0.5,0.549396,0.560457,0.5,0.5,0.5
+The New York Times,2020-05-11T11:00:07+0000,https://www.nytimes.com/2020/05/11/sports/will-there-be-an-nfl-season.html,0, ,0.5,0.509121,0.5,0.517213,0.5,0.5,0.5
+The New York Times,2020-05-13T09:00:27+0000,https://www.nytimes.com/2020/05/13/sports/baseball/willie-mays-book.html,0, ,0.5,0.5,0.574776,0.54729,0.5,0.5,0.5
+The New York Times,2020-05-15T16:07:00+0000,https://www.nytimes.com/2020/05/15/sports/bundesliga-games-this-weekend.html,0, ,0.5,0.5,0.647241,0.5,0.5,0.5,0.598175
+The New York Times,2020-05-12T10:36:57+0000,https://www.nytimes.com/2020/05/12/sports/autoracing/sebastian-vettel-ferrari.html,0, ,0.5,0.5,0.638071,0.517688,0.700477,0.5,0.5
+The New York Times,2020-05-14T06:00:08+0000,https://www.nytimes.com/2020/05/14/sports/olympics/climbing-slovenia-mia-krampl.html,0, ,0.5,0.5,0.591979,0.605165,0.5,0.5,0.5

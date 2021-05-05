@@ -1,0 +1,5 @@
+Source,Date,URL,Score,   ,Anger,Fear,Joy,Sad,Analy,Confi,Tenta
+Guardian,2020-01-18T19:20:36Z,https://www.theguardian.com/society/2020/jan/18/expert-questions-effectiveness-airport-screening-new-coronavirus,0, ,0.5,0.52428,0.5,0.562283,0.819662,0.5,0.799216
+Guardian,2020-01-18T09:21:23Z,https://www.theguardian.com/world/2020/jan/18/coronavirus-what-airport-measures-are-in-place-to-detect-for-sick-passengers,0, ,0.5,0.5,0.543857,0.583335,0.5,0.5,0.5
+Guardian,2020-01-14T06:44:02Z,https://www.theguardian.com/world/2020/jan/14/case-of-mystery-coronavirus-found-outside-china-for-the-first-time-thailand,0, ,0.5,0.5,0.5,0.534094,0.728692,0.5,0.560141
+Guardian,2020-01-18T19:20:36Z,https://www.theguardian.com/world/2020/jan/18/no-airport-screening-for-new-sars-like-virus-yet-china,0, ,0.5,0.544705,0.525993,0.525652,0.550272,0.5,0.5

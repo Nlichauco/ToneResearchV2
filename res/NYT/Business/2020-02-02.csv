@@ -1,0 +1,26 @@
+Source,Date,URL,Score,   ,Anger,Fear,Joy,Sad,Analy,Confi,Tenta
+The New York Times,2020-02-07T09:46:58+0000,https://www.nytimes.com/2020/02/07/business/china-coronavirus-doctor-death.html,0, ,0.5,0.5,0.542603,0.599468,0.5,0.5,0.5
+The New York Times,2020-02-07T16:08:17+0000,https://www.nytimes.com/2020/02/07/business/coronavirus-business-impact.html,0, ,0.5,0.5,0.5,0.528049,0.698422,0.5,0.528992
+The New York Times,2020-02-05T00:46:18+0000,https://www.nytimes.com/2020/02/04/world/china-coronavirus-wuhan.html,0, ,0.5,0.5,0.5,0.555808,0.5,0.5,0.667349
+The New York Times,2020-02-07T22:09:09+0000,https://www.nytimes.com/2020/02/07/business/opec-russia-saudi-arabia.html,0, ,0.5,0.5,0.5,0.51862,0.824805,0.5,0.5
+The New York Times,2020-02-06T15:52:52+0000,https://www.nytimes.com/2020/02/06/business/coronavirus-face-masks.html,0, ,0.5,0.5,0.5,0.554783,0.755286,0.5,0.5
+The New York Times,2020-02-07T19:44:16+0000,https://www.nytimes.com/2020/02/07/business/coronavirus-china-auto-factories.html,0, ,0.5,0.5,0.535088,0.555833,0.84746,0.5,0.5
+The New York Times,2020-02-06T09:52:53+0000,https://www.nytimes.com/2020/02/06/business/china-trade-tariffs-coronavirus.html,0, ,0.5,0.5,0.547874,0.5,0.640733,0.5,0.544049
+The New York Times,2020-02-03T08:00:16+0000,https://www.nytimes.com/2020/02/03/business/economy/SARS-coronavirus-economic-impact-china.html,0, ,0.5,0.5,0.58221,0.568044,0.709175,0.5,0.5
+The New York Times,2020-02-04T12:06:55+0000,https://www.nytimes.com/2020/02/04/business/coronavirus-macau-gambling.html,0, ,0.5,0.5,0.5,0.531887,0.5,0.5,0.57166
+The New York Times,2020-02-03T01:49:50+0000,https://www.nytimes.com/2020/02/02/business/global-markets.html,0, ,0.5,0.5,0.532837,0.577208,0.554136,0.5,0.6702
+The New York Times,2020-02-04T13:41:28+0000,https://www.nytimes.com/2020/02/04/business/china-coronavirus-government.html,0, ,0.5,0.568899,0.521918,0.553425,0.672614,0.5,0.660328
+The New York Times,2020-02-04T18:43:52+0000,https://www.nytimes.com/2020/02/04/us/oil-coronavirus.html,0, ,0.5,0.5,0.5,0.59202,0.747856,0.5,0.5
+The New York Times,2020-02-07T22:35:05+0000,https://www.nytimes.com/2020/02/07/world/asia/china-coronavirus-doctor-death.html,0, ,0.5,0.5,0.5,0.630386,0.5,0.5,0.5
+The New York Times,2020-02-03T23:12:00+0000,https://www.nytimes.com/2020/02/03/business/china-coronavirus-wuhan-surveillance.html,0, ,0.5,0.544042,0.5,0.568167,0.5,0.5,0.532427
+The New York Times,2020-02-04T10:00:25+0000,https://www.nytimes.com/2020/02/04/business/china-coronavirus-food-prices.html,0, ,0.5,0.555723,0.509269,0.56245,0.5,0.5,0.5
+The New York Times,2020-02-04T16:30:46+0000,https://www.nytimes.com/2020/02/04/business/hyundai-south-korea-coronavirus.html,0, ,0.5,0.5,0.5,0.570898,0.838779,0.5,0.5
+The New York Times,2020-02-03T14:43:24+0000,https://www.nytimes.com/2020/02/03/business/energy-environment/china-oil-opec.html,0, ,0.5,0.564796,0.5,0.577519,0.803548,0.5,0.737884
+The New York Times,2020-02-03T11:50:37+0000,https://www.nytimes.com/2020/02/03/business/dealbook/coronavirus-economy-sars.html,0, ,0.5,0.5,0.549379,0.5,0.511046,0.5,0.5
+The New York Times,2020-02-05T21:06:32+0000,https://www.nytimes.com/2020/02/05/business/stock-market-record-coronavirus.html,0, ,0.5,0.577424,0.53831,0.548853,0.571208,0.5,0.60345
+The New York Times,2020-02-07T11:00:08+0000,https://www.nytimes.com/2020/02/07/business/january-jobs-report.html,0, ,0.5,0.5,0.5,0.511207,0.601168,0.5,0.5
+The New York Times,2020-02-05T11:39:12+0000,https://www.nytimes.com/2020/02/05/business/dealbook/instagram-20-billion-revenue.html,0, ,0.5,0.5,0.5,0.563543,0.5,0.5,0.628663
+The New York Times,2020-02-06T11:51:33+0000,https://www.nytimes.com/2020/02/06/business/dealbook/google-ads-antitrust.html,0, ,0.5,0.5,0.5,0.600239,0.5,0.5,0.5
+The New York Times,2020-02-04T11:23:59+0000,https://www.nytimes.com/2020/02/04/business/dealbook/youtube-alphabet-revenue.html,0, ,0.5,0.5,0.5,0.550398,0.527464,0.5,0.525834
+The New York Times,2020-02-04T18:13:32+0000,https://www.nytimes.com/2020/02/04/business/media/disney-earnings.html,0, ,0.5,0.5,0.580134,0.532152,0.567704,0.5,0.5
+The New York Times,2020-02-04T16:35:11+0000,https://www.nytimes.com/2020/02/04/business/goldman-sachs-1MDB.html,0, ,0.5,0.5,0.5,0.5,0.654015,0.5,0.5

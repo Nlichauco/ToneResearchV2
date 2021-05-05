@@ -1,0 +1,18 @@
+Source,Date,URL,Score,   ,Anger,Fear,Joy,Sad,Analy,Confi,Tenta
+The New York Times,2020-02-11T18:55:52+0000,https://www.nytimes.com/2020/02/11/business/coronavirus-europe-economy-daimler.html,0, ,0.5,0.5,0.5,0.580537,0.72534,0.5,0.5
+The New York Times,2020-02-11T23:39:27+0000,https://www.nytimes.com/2020/02/11/business/china-coronavirus-commodities.html,0, ,0.5,0.5,0.559365,0.506457,0.73822,0.5,0.617567
+The New York Times,2020-02-14T10:00:40+0000,https://www.nytimes.com/2020/02/14/business/coronavirus-temperature-sensor-guns.html,0, ,0.5,0.5,0.5,0.56688,0.675791,0.5,0.568989
+The New York Times,2020-02-15T14:52:47+0000,https://www.nytimes.com/2020/02/15/business/china-coronavirus-lockdown.html,0, ,0.5,0.5,0.5,0.554724,0.55972,0.5,0.584464
+The New York Times,2020-02-10T13:19:32+0000,https://www.nytimes.com/2020/02/10/business/china-coronavirus-philippines-travel.html,0, ,0.5,0.561079,0.505154,0.607208,0.5,0.5,0.5
+The New York Times,2020-02-09T23:00:09+0000,https://www.nytimes.com/2020/02/09/world/asia/china-coronavirus-tests.html,0, ,0.5,0.5,0.547254,0.556972,0.5,0.5,0.5
+The New York Times,2020-02-10T18:45:32+0000,https://www.nytimes.com/2020/02/10/business/china-coronavirus-economy.html,0, ,0.5,0.5,0.500856,0.550023,0.649828,0.5,0.5038
+The New York Times,2020-02-14T11:21:08+0000,https://www.nytimes.com/2020/02/14/business/germany-economy-coronavirus.html,0, ,0.5,0.5,0.506664,0.570122,0.859356,0.5,0.5
+The New York Times,2020-02-14T21:18:06+0000,https://www.nytimes.com/2020/02/14/business/coronavirus-luxury-retail.html,0, ,0.5,0.5,0.521499,0.5,0.686084,0.5,0.712704
+The New York Times,2020-02-11T10:00:25+0000,https://www.nytimes.com/2020/02/11/business/daimler-loss-coronavirus.html,0, ,0.5,0.5,0.5,0.552616,0.588028,0.5,0.5
+The New York Times,2020-02-11T13:30:10+0000,https://www.nytimes.com/2020/02/11/business/economy/jerome-powell-federal-reserve-coronavirus.html,0, ,0.5,0.5,0.5,0.5,0.5,0.5,0.644075
+The New York Times,2020-02-13T12:16:16+0000,https://www.nytimes.com/2020/02/13/business/dealbook/fed-judy-shelton.html,0, ,0.5,0.5,0.544159,0.5,0.589212,0.5,0.5
+The New York Times,2020-02-11T17:31:02+0000,https://www.nytimes.com/2020/02/11/business/under-armour-earnings.html,0, ,0.5,0.5,0.517833,0.540335,0.664725,0.5,0.637503
+The New York Times,2020-02-12T11:56:48+0000,https://www.nytimes.com/2020/02/12/business/dealbook/bernie-sanders-business.html,0, ,0.5,0.5,0.513174,0.502001,0.5,0.5,0.554606
+The New York Times,2020-02-14T14:00:06+0000,https://www.nytimes.com/2020/02/14/technology/foldable-smartphones.html,0, ,0.5,0.5,0.601105,0.529496,0.66534,0.5,0.648688
+The New York Times,2020-02-11T10:00:19+0000,https://www.nytimes.com/2020/02/11/technology/big-tech-antitrust.html,0, ,0.5,0.5,0.504823,0.5,0.775416,0.5,0.5
+The New York Times,2020-02-11T12:09:34+0000,https://www.nytimes.com/2020/02/11/business/dealbook/t-mobile-sprint-merger.html,0, ,0.5,0.5,0.529475,0.533638,0.553369,0.5,0.5453

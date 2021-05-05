@@ -1,0 +1,16 @@
+Source,Date,URL,Score,   ,Anger,Fear,Joy,Sad,Analy,Confi,Tenta
+The New York Times,2020-02-29T20:12:58+0000,https://www.nytimes.com/2020/02/29/health/Trump-coronavirus-taskforce.html,0, ,0.5,0.5,0.5,0.537545,0.5,0.5,0.5
+The New York Times,2020-02-29T23:30:15+0000,https://www.nytimes.com/2020/02/29/health/fda-coronavirus-testing.html,0, ,0.5,0.5,0.539492,0.549665,0.589999,0.5,0.653946
+The New York Times,2020-02-29T10:00:11+0000,https://www.nytimes.com/2020/02/29/health/coronavirus-reinfection.html,0, ,0.5,0.537142,0.503643,0.55896,0.704791,0.5,0.724686
+The New York Times,2020-02-27T00:55:39+0000,https://www.nytimes.com/2020/02/26/health/coronavirus-cdc-usa.html,0, ,0.5,0.5,0.5,0.5,0.581988,0.5,0.585461
+The New York Times,2020-02-29T17:52:27+0000,https://www.nytimes.com/2020/02/29/health/coronavirus-preparation-united-states.html,0, ,0.5,0.5,0.5,0.522292,0.563012,0.5,0.693533
+The New York Times,2020-02-27T12:45:14+0000,https://www.nytimes.com/2020/02/27/health/coronavirus-testing-california.html,0, ,0.5,0.5,0.52116,0.599756,0.553124,0.5,0.613128
+The New York Times,2020-02-28T21:39:44+0000,https://www.nytimes.com/2020/02/28/health/drug-coronavirus-shortage.html,0, ,0.5,0.583008,0.5,0.566931,0.833978,0.5,0.5
+The New York Times,2020-02-25T18:19:22+0000,https://www.nytimes.com/2020/02/25/health/coronavirus-us.html,0, ,0.5,0.553379,0.538115,0.568213,0.5,0.5,0.5
+The New York Times,2020-02-26T23:48:45+0000,https://www.nytimes.com/2020/02/26/health/coronavirus-gilead-drug-trials.html,0, ,0.5,0.5,0.5,0.582618,0.666384,0.5,0.81986
+The New York Times,2020-02-24T22:15:07+0000,https://www.nytimes.com/2020/02/24/health/coronavirus-westerdam-cdc.html,0, ,0.5,0.5,0.574032,0.558012,0.692479,0.5,0.5
+The New York Times,2020-02-27T22:31:45+0000,https://www.nytimes.com/2020/02/27/science/coronavirus-pangolin-wildlife-ban-china.html,0, ,0.5,0.5,0.513438,0.5,0.868567,0.5,0.506521
+The New York Times,2020-02-29T01:04:08+0000,https://www.nytimes.com/2020/02/28/health/coronavirus-pence-messaging.html,0, ,0.5,0.5,0.5,0.576343,0.637758,0.5,0.518674
+The New York Times,2020-02-27T22:09:45+0000,https://www.nytimes.com/2020/02/27/health/pence-coronavirus-indiana.html,0, ,0.5,0.5,0.5,0.50191,0.616756,0.5,0.5
+The New York Times,2020-02-27T00:47:11+0000,https://www.nytimes.com/2020/02/26/health/coronavirus-asymptomatic.html,0, ,0.5,0.5,0.5,0.560519,0.612736,0.5,0.831338
+The New York Times,2020-02-24T14:49:26+0000,https://www.nytimes.com/2020/02/24/health/genomic-diagnostic-tests.html,0, ,0.5,0.528497,0.509007,0.569192,0.582735,0.5,0.594274

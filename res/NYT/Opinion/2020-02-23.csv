@@ -1,0 +1,24 @@
+Source,Date,URL,Score,   ,Anger,Fear,Joy,Sad,Analy,Confi,Tenta
+The New York Times,2020-02-28T13:50:54+0000,https://www.nytimes.com/2020/02/28/sunday-review/coronavirus-quarantine.html,0, ,0.5,0.536271,0.5,0.552029,0.618971,0.5,0.710826
+The New York Times,2020-02-29T15:00:05+0000,https://www.nytimes.com/2020/02/29/opinion/coronavirus-prepping.html,0, ,0.5,0.616977,0.528203,0.537981,0.631102,0.5,0.549322
+The New York Times,2020-02-27T22:45:03+0000,https://www.nytimes.com/2020/02/27/opinion/coronavirus-preparation.html,0, ,0.5,0.515398,0.550919,0.577218,0.5,0.5,0.63277
+The New York Times,2020-02-29T19:34:22+0000,https://www.nytimes.com/2020/02/29/opinion/sunday/coronavirus-outbreak.html,0, ,0.5,0.5,0.5,0.594895,0.648702,0.5,0.549671
+The New York Times,2020-02-25T10:00:21+0000,https://www.nytimes.com/2020/02/25/opinion/coronavirus-cases-spread.html,0, ,0.5,0.595711,0.5,0.555852,0.723471,0.5,0.667593
+The New York Times,2020-02-29T00:00:06+0000,https://www.nytimes.com/2020/02/28/opinion/coronavirus-death-rate.html,0, ,0.5,0.58196,0.508371,0.514885,0.600552,0.5,0.608023
+The New York Times,2020-02-25T16:00:07+0000,https://www.nytimes.com/2020/02/25/opinion/stock-market-coronavirus-economy.html,0, ,0.5,0.599833,0.5,0.55937,0.518738,0.5,0.610145
+The New York Times,2020-02-24T07:31:45+0000,https://www.nytimes.com/2020/02/24/opinion/coronavirus-pandemic.html,0, ,0.5,0.5,0.5,0.553121,0.78726,0.5,0.793282
+The New York Times,2020-02-26T06:00:07+0000,https://www.nytimes.com/2020/02/26/opinion/coronavirus-japan-abe.html,0, ,0.5,0.5,0.5,0.533103,0.726189,0.5,0.5
+The New York Times,2020-02-28T00:49:16+0000,https://www.nytimes.com/2020/02/27/opinion/coronavirus-trump.html,0, ,0.5,0.565394,0.538675,0.501075,0.804263,0.5,0.5
+The New York Times,2020-02-29T19:30:05+0000,https://www.nytimes.com/2020/02/29/opinion/sunday/trump-coronavirus-response.html,0, ,0.5,0.5,0.5,0.5,0.5,0.5,0.631156
+The New York Times,2020-02-28T15:46:10+0000,https://www.nytimes.com/2020/02/28/opinion/coronavirus-trump.html,0, ,0.553826,0.595051,0.5,0.555006,0.5,0.5,0.52995
+The New York Times,2020-02-27T02:57:51+0000,https://www.nytimes.com/2020/02/26/opinion/coronavirus-trump.html,0, ,0.5,0.5,0.5,0.551901,0.53015,0.5,0.5
+The New York Times,2020-02-27T23:13:15+0000,https://www.nytimes.com/2020/02/27/opinion/coronavirus-tech-facebook.html,0, ,0.5,0.5,0.517671,0.53199,0.589383,0.5,0.5
+The New York Times,2020-02-26T20:00:08+0000,https://www.nytimes.com/2020/02/26/opinion/coronavirus-panic.html,0, ,0.5,0.588076,0.5,0.52503,0.538065,0.5,0.814712
+The New York Times,2020-02-28T06:09:15+0000,https://www.nytimes.com/2020/02/28/opinion/coronavirus-china-government.html,0, ,0.5,0.575607,0.540775,0.5,0.706763,0.5,0.5
+The New York Times,2020-02-27T10:01:07+0000,https://www.nytimes.com/2020/02/27/opinion/coronavirus-pandemics.html,0, ,0.5,0.5,0.5,0.5,0.5,0.5,0.732751
+The New York Times,2020-02-28T12:57:24+0000,https://www.nytimes.com/2020/02/28/opinion/democrats-super-tuesday.html,0, ,0.5,0.581455,0.55439,0.534227,0.5,0.5,0.683358
+The New York Times,2020-02-26T15:12:41+0000,https://www.nytimes.com/2020/02/26/opinion/democratic-debate.html,0, ,0.5,0.5,0.5,0.547113,0.551004,0.5,0.516065
+The New York Times,2020-02-27T10:00:18+0000,https://www.nytimes.com/2020/02/27/opinion/sunday/joe-biden-2020.html,0, ,0.5,0.5,0.558695,0.517322,0.687586,0.5,0.855835
+The New York Times,2020-02-24T23:21:09+0000,https://www.nytimes.com/2020/02/24/opinion/trump-2020-debt.html,0, ,0.5,0.5,0.5,0.586541,0.5,0.5,0.5
+The New York Times,2020-02-26T10:00:17+0000,https://www.nytimes.com/2020/02/26/opinion/democratic-debate-south-carolina.html,0, ,0.5,0.589366,0.5,0.588137,0.548301,0.5,0.753861
+The New York Times,2020-02-28T10:00:15+0000,https://www.nytimes.com/2020/02/28/opinion/sunday/far-right-climate-change.html,0, ,0.5,0.54074,0.5,0.5,0.639462,0.5,0.567287

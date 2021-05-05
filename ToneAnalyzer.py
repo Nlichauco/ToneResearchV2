@@ -5,6 +5,7 @@ from ibm_watson import ToneAnalyzerV3
 
 def tone_analyze(article, text):
     # Iterate through each article class, each 'text', corresponds to a single article
+    print("enter tone_analyze")
     t_scores, tones = ibm_tone(text)
     # Get tone scores and tones from IBM
     assign_tone(t_scores, tones, article)
@@ -31,25 +32,30 @@ for text in texts:
 
 
 def ibm_tone(text):
-    #apikey = 'EKJ2es4GQg5UrMiW6cY16R06b1yzPH_0aB7yInFi5cgY'
-    apikey='mA_4uqt2kbCe0ulfIL_-w-s6d9QF1-tsC0ZB0_tWmDZu'
+    # apikey = 'EKJ2es4GQg5UrMiW6cY16R06b1yzPH_0aB7yInFi5cgY'
+    apikey = 'mOdKcCHiArRjTflAtlQYB5ZKzirg2J9JteSgGywM0OoB'
+    print("before IAMAuthen")
     authenticator = IAMAuthenticator(apikey)
     tone_analyzer = ToneAnalyzerV3(
         version='2017-09-21',
         authenticator=authenticator
     )
 
+    print("before set service url")
     tone_analyzer.set_service_url(
-        'https://api.au-syd.tone-analyzer.watson.cloud.ibm.com/instances/a4959905-de76-443d-9f76-3da83ecaa3cf')
+        'https://api.us-south.tone-analyzer.watson.cloud.ibm.com/instances/9149ca72-dd28-42c2-9a3e-dce966e118c4')
     text = text
+    print("before get result")
     tone_analysis = tone_analyzer.tone(
         {'text': text},
         content_type='application/json'
     ).get_result()
     query = f'.document_tone .tones[] | {{score: .score, tone_name: .tone_name}}'
+    print("before pyjq")
     output = pyjq.all(query, tone_analysis)
     scores = []
     tones = []
+    print("before output")
     for i in range(len(output)):
         my_dict = output[i]
         score = my_dict["score"]

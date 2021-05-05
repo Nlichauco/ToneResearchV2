@@ -5,7 +5,7 @@ from natsort import natsorted
 from entity.Article import Article
 from entity.Week import Week
 
-the_paths = ['res/Guardian/Business', 'res/Guardian/Science', 'res/Guardian/Opinion', 'res/Guardian/Politics']
+the_paths = ['res/Guardian/Business', 'res/Guardian/Opinion', 'res/Guardian/Politics', 'res/Guardian/Sports']
 
 
 def big_csv(paths):
@@ -32,30 +32,47 @@ def read_section(path):
     missing_values = ["NaN", "0"]
     # print(os.listdir(path))
     list_weeks = list()
+    count = 0
     for filename in natsorted(os.listdir(path), key=lambda y: y.lower()):
 
         if not filename.startswith('.'):
             # print(filename,"\n")
             week = Week(str(filename[0:-4]))
             with open(os.path.join(path, filename)) as f:
-
+                se = set()
                 data = pd.read_csv(f, header=0, sep=r'\s*,\s*', na_values=missing_values, engine='python',
                                    usecols=[0, 1, 2, 5, 6, 7, 8, 9, 10, 11])
+                count = 0
                 for ind in data.index:
-                    article = Article(data['Source'][ind], data['Date'][ind], data['URL'][ind])
+                    url = data["URL"][ind]
 
-                    article.analytical = data['Analy'][ind]
-                    article.sadness = data['Sad'][ind]
-                    article.confidence = data['Confi'][ind]
-                    article.anger = data['Anger'][ind]
-                    article.tentative = data['Tenta'][ind]
-                    article.fear = data['Fear'][ind]
-                    article.joy = data['Joy'][ind]
-
-                    # print(article.sadness,"    ", article.url)
-                    week.add_Art(article)
+                    if not clean(url) and url not in se:
+                        count += 1
+                        se.add(url)
+                        article = Article(data['Source'][ind], data['Date'][ind], data['URL'][ind])
+                        article.analytical = data['Analy'][ind]
+                        article.sadness = data['Sad'][ind]
+                        article.confidence = data['Confi'][ind]
+                        article.anger = data['Anger'][ind]
+                        article.tentative = data['Tenta'][ind]
+                        article.fear = data['Fear'][ind]
+                        article.joy = data['Joy'][ind]
+                        week.add_Art(article)
                 list_weeks.append(week)
+                print(count)
     return list_weeks
+
+
+#
+# def clean(url):
+#     return ('coronavirus' not in url and 'covid' not in url and 'virus' not in url and 'pandemic' not in url
+#             and 'vaccine' not in url) or 'interactive' in url or "picture" in url or "photo" in url or "movie" in url \
+#            or "music" in url or "book" in url or "share" in url\
+
+
+def clean(url):
+    return (
+                   'coronavirus' not in url and 'covid' not in url and 'virus' not in url and 'pandemic' not in url and 'vaccine' not in url) or 'interactive' in url or 'photo' in url or 'video' in url or "podcast" in url or "quotation-of-the-day" in url
 
 
 """
@@ -146,9 +163,7 @@ def write_overall(path, source, desk):
 
 
 def main():
-    for p in the_paths:
-        # write_overall(p, "NYT", p[p.rfind("/") + 1:])
-        write_overall(p, "Guardian", p[p.rfind("/") + 1:])
+    big_csv(the_paths)
 
 
 main()

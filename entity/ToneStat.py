@@ -57,6 +57,4 @@ class ToneStat:
         for score in self.Tone_scores:
             if score>.5:
                 total+=score
-        if total==0:
-            return .5
         return total

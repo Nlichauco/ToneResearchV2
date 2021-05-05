@@ -1,0 +1,9 @@
+Source,Date,URL,Score,   ,Anger,Fear,Joy,Sad,Analy,Confi,Tenta
+The New York Times,2009-09-18T19:21:14+0000,https://www.nytimes.com/2009/09/19/health/19flu.html,0, ,0.5,0.617857,0.503449,0.581998,0.660023,0.5,0.562614
+The New York Times,2009-09-21T21:03:43+0000,https://www.nytimes.com/2009/09/22/health/22flu.html,0, ,0.5,0.5,0.5,0.556983,0.586582,0.5,0.813022
+International Herald Tribune,2009-09-20T05:00:00+0000,https://www.nytimes.com/2009/09/21/world/europe/21iht-naples.html,0, ,0.5,0.536189,0.582082,0.561292,0.650724,0.5,0.5
+International Herald Tribune,2009-09-20T21:01:31+0000,https://www.nytimes.com/2009/09/21/world/europe/21iht-naples.html,0, ,0.5,0.536189,0.582082,0.561292,0.650724,0.5,0.5
+The New York Times,2009-09-22T19:22:44+0000,https://intransit.blogs.nytimes.com/2009/09/22/qa-swine-flu-restrictions-in-japan/,0, ,0.5,0.5,0.572046,0.5,0.59772,0.5,0.669315
+The New York Times,2009-09-22T19:22:44+0000,https://intransit.blogs.nytimes.com/2009/09/22/blogs/22intransit-qa-swine6745.html,0, ,0.5,0.5,0.5,0.878948,0.5,0.5,0.615352
+The New York Times,2009-09-21T18:47:19+0000,https://www.nytimes.com/2009/09/22/health/22vacc.html,0, ,0.5,0.567555,0.5,0.508461,0.717756,0.5,0.709493
+The New York Times,2009-09-19T20:49:19+0000,https://www.nytimes.com/2009/09/20/world/africa/20cairo.html,0, ,0.5,0.5,0.5,0.5,0.676809,0.5,0.5

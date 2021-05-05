@@ -1,0 +1,5 @@
+Source,Date,URL,Score,   ,Anger,Fear,Joy,Sad,Analy,Confi,Tenta
+The New York Times,2020-02-18T10:01:07+0000,https://www.nytimes.com/2020/02/18/opinion/coronavirus-china-numbers.html,0, ,0.5,0.539914,0.5,0.60497,0.855089,0.5,0.845184
+The New York Times,2020-02-20T10:00:24+0000,https://www.nytimes.com/2020/02/20/opinion/sunday/coronavirus-china-cause.html,0, ,0.5,0.5,0.5,0.534334,0.596122,0.5,0.709871
+The New York Times,2020-02-22T19:30:06+0000,https://www.nytimes.com/2020/02/22/opinion/sunday/china-united-states-health.html,0, ,0.5,0.5,0.512008,0.605279,0.519834,0.5,0.623777
+The New York Times,2020-02-20T20:44:08+0000,https://www.nytimes.com/2020/02/20/opinion/wall-street-journal-china.html,0, ,0.5,0.615629,0.5,0.592604,0.783633,0.5,0.5

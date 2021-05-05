@@ -1,0 +1,23 @@
+Source,Date,URL,Score,   ,Anger,Fear,Joy,Sad,Analy,Confi,Tenta
+The New York Times,2020-01-28T08:04:15+0000,https://www.nytimes.com/2020/01/28/business/coronavirus-financial-markets.html,0, ,0.5,0.551167,0.5,0.546701,0.5,0.5,0.70243
+The New York Times,2020-01-28T11:30:51+0000,https://www.nytimes.com/2020/01/28/business/dealbook/coronavirus-economy-stocks.html,0, ,0.5,0.508814,0.509202,0.544827,0.5,0.5,0.514357
+The New York Times,2020-01-29T11:48:06+0000,https://www.nytimes.com/2020/01/29/business/dealbook/coronavirus-apple-starbucks.html,0, ,0.5,0.5,0.502476,0.55402,0.572971,0.5,0.5
+The New York Times,2020-01-31T16:03:26+0000,https://www.nytimes.com/2020/01/31/business/china-flights-suspended.html,0, ,0.5,0.5,0.5,0.521789,0.579667,0.5,0.658905
+The New York Times,2020-01-28T14:00:50+0000,https://www.nytimes.com/2020/01/28/business/china-coronavirus-communist-party.html,0, ,0.5,0.5,0.541754,0.582319,0.609531,0.5,0.544196
+The New York Times,2020-01-31T10:00:29+0000,https://www.nytimes.com/2020/01/31/business/china-coronavirus-business.html,0, ,0.5,0.5,0.57371,0.5843,0.516414,0.5,0.651859
+The New York Times,2020-01-29T11:05:11+0000,https://www.nytimes.com/2020/01/29/business/china-coronavirus-economy.html,0, ,0.5,0.5,0.5,0.5,0.656896,0.5,0.5
+The New York Times,2020-02-01T14:30:35+0000,https://www.nytimes.com/2020/02/01/business/coronavirus-business-travel.html,0, ,0.5,0.5,0.5,0.536145,0.555211,0.5,0.5
+The New York Times,2020-01-27T23:18:56+0000,https://www.nytimes.com/2020/01/27/business/coronavirus-china-economic-impact.html,0, ,0.5,0.581293,0.5,0.555583,0.699724,0.5,0.5
+The New York Times,2020-01-27T12:23:40+0000,https://www.nytimes.com/2020/01/27/business/stock-market-today.html,0, ,0.5,0.519458,0.523408,0.564579,0.5,0.5,0.647781
+The New York Times,2020-01-31T18:39:26+0000,https://www.nytimes.com/2020/01/31/business/economy/european-union-eurozone-economy.html,0, ,0.5,0.538165,0.513487,0.600076,0.700752,0.5,0.747169
+The New York Times,2020-01-31T21:24:17+0000,https://www.nytimes.com/2020/01/31/business/china-travel-coronavirus.html,0, ,0.5,0.542446,0.563203,0.5,0.612096,0.5,0.551473
+The New York Times,2020-01-31T14:00:05+0000,https://www.nytimes.com/2020/01/31/technology/huawei-britain-5g.html,0, ,0.5,0.5,0.52303,0.544054,0.630729,0.5,0.552543
+The New York Times,2020-01-30T08:03:05+0000,https://www.nytimes.com/2020/01/30/business/stock-market-today.html,0, ,0.5,0.632447,0.541492,0.533839,0.5,0.5,0.544045
+The New York Times,2020-01-27T15:28:32+0000,https://www.nytimes.com/2020/01/27/technology/china-coronavirus-censorship-social-media.html,0, ,0.5,0.600713,0.5,0.540092,0.566916,0.5,0.756244
+The New York Times,2020-01-31T11:44:09+0000,https://www.nytimes.com/2020/01/31/business/dealbook/amazon-jeff-bezos.html,0, ,0.5,0.5,0.546189,0.530663,0.5,0.5,0.5
+The New York Times,2020-01-27T12:00:55+0000,https://www.nytimes.com/2020/01/27/business/dealbook/kobe-bryant-business.html,0, ,0.5,0.5,0.563207,0.522543,0.596781,0.5,0.518714
+The New York Times,2020-01-29T19:03:35+0000,https://www.nytimes.com/2020/01/29/business/economy/fed-interest-rates-decision.html,0, ,0.5,0.5,0.535546,0.518211,0.581473,0.5,0.5
+The New York Times,2020-01-30T12:11:30+0000,https://www.nytimes.com/2020/01/30/business/dealbook/elon-musk-tesla.html,0, ,0.5,0.5,0.5,0.516161,0.519021,0.5,0.5
+The New York Times,2020-01-29T21:28:02+0000,https://www.nytimes.com/2020/01/29/business/tesla-earnings.html,0, ,0.5,0.5,0.542254,0.5788,0.823041,0.5,0.5
+The New York Times,2020-01-28T21:45:27+0000,https://www.nytimes.com/2020/01/28/technology/apple-iphone-sales-earnings.html,0, ,0.5,0.5,0.553251,0.538814,0.640604,0.5,0.596403
+The New York Times,2020-01-29T10:00:17+0000,https://www.nytimes.com/2020/01/29/business/federal-reserve-meeting.html,0, ,0.5,0.5,0.5,0.57868,0.600581,0.5,0.564501

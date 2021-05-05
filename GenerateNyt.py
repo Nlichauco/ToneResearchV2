@@ -1,9 +1,11 @@
 import csv
+import json
 from datetime import date
 
 import pyjq
 import requests
 from bs4 import BeautifulSoup
+from requests.exceptions import SSLError
 
 from GetDate import get_date_nyt_format
 from ToneAnalyzer import tone_analyze
@@ -12,17 +14,18 @@ from entity.Article import Article
 
 def fetch_from_nyt(que, file_name):
     urls, articles, amt = pull(que)
-    print("hit \n")
     if amt < 1:
         # If there are no articles returned skip to the next week.
         return amt
+    print("before get text")
     texts = get_text(urls)
+    print("before create_arts")
     articles = create_arts(articles, texts)
     create_csv(articles, file_name)
     return amt
 
 
-# Pull basic info from NYT API, return url and list of article class OBJS
+# Pull basic info from Guardian API, return url and list of article class OBJS
 
 
 """Api request, pulls important metadata.
@@ -39,30 +42,26 @@ def fetch_from_nyt(que, file_name):
 
 def pull(que):
     response = requests.get(que)
-    data = response.json()
-    num_docs = pyjq.all('.response | .docs', data)[0]
-    resp = 0
-    if num_docs is not None:
-        resp = len(num_docs)
-    print(resp)
-    query = f'.response .docs [] | {{web_url: .web_url, source: .source, pub_date: .pub_date}}'
-
-    output = pyjq.all(query, data)
-
+    news_json = response.json()
+    print(news_json)
+    resp = len(news_json['response']['docs'])
     arts = list()
     urls = []
-    for i in range(len(output)):
-        my_dict = output[i]
-        source = my_dict["source"]
-        date = my_dict["pub_date"]
-        url = my_dict["web_url"]
+    if resp == 0:
+        return urls, arts, resp
+    print(resp)
+
+    for article in news_json['response']['docs']:
+        source = article['source']
+        date = article['pub_date']
+        url = article['web_url']
         urls.append(url)
         arts.append(Article(source, date, url))
 
     return urls, arts, resp
 
 
-"""Grabs text from websites, specifically NYT
+"""Grabs text from websites, specifically Guardian
 
     Args:
         urls: urls is a url or list of urls.
@@ -76,7 +75,10 @@ def get_text(urls):
     blob = []
     for url in urls:
         text = ""
-        req = session.get(url)
+        try:
+            req = session.get(url)
+        except SSLError:
+            continue
         soup = BeautifulSoup(req.text, 'html.parser')
         paragraphs = soup.find_all('p')
         for p in paragraphs:
@@ -85,6 +87,7 @@ def get_text(urls):
                 break
             text = text + " " + words
         blob.append(text)
+    print("end of for-loop get_text")
     return blob
 
 
@@ -136,17 +139,16 @@ def create_csv(articles, file_name):
 
 
 def demo():
-    s_dates = get_date_nyt_format(0, date(2020, 9, 27), date(2020, 12, 26))
-    e_dates = get_date_nyt_format(6, date(2020, 9, 27), date(2020, 12, 26))
+    s_dates = get_date_nyt_format(0, date(2020, 12, 27), date(2021, 1, 2))
+    e_dates = get_date_nyt_format(6, date(2020, 12, 27), date(2021, 1, 2))
     for i in range(0, len(s_dates)):
-        file_name = "2020-"+s_dates[i][:2] + "-" + s_dates[i][3:]+ ".csv"
-        
+        file_name = "2020-" + s_dates[i][:2] + "-" + s_dates[i][2:] + ".csv"
         page = 0
         create_template(file_name)
         while 1:
             que = "https://api.nytimes.com/svc/search/v2/articlesearch.json?q=coronavirus&page=" + str(page) + \
                   '&fq=news_desk:("Sports")&source:("The New York Times")&facet=true&sort=relevance&begin_date=2020' + \
-                  s_dates[i] + "&end_date=2020" + e_dates[i] + "&api-key=aiPyJZEGATr7l0XfQGsBpQ3loDqzteIC"
+                  s_dates[i] + "&end_date=2021" + e_dates[i] + "&api-key=JGcjpWJ6Yc9UcW7TepoAbnqbHrR5tGAW"
             if fetch_from_nyt(que, file_name) != 10:
                 break
             page += 1

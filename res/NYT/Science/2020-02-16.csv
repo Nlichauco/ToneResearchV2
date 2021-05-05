@@ -1,0 +1,5 @@
+Source,Date,URL,Score,   ,Anger,Fear,Joy,Sad,Analy,Confi,Tenta
+The New York Times,2020-02-18T17:29:22+0000,https://www.nytimes.com/2020/02/18/health/coronavirus-quarantine-smartphone.html,0, ,0.5,0.592931,0.548731,0.557543,0.5,0.5,0.5
+The New York Times,2020-02-21T17:55:54+0000,https://www.nytimes.com/2020/02/21/health/coronavirus-cases-usa.html,0, ,0.5,0.5,0.544808,0.516215,0.570241,0.5,0.5
+The New York Times,2020-02-19T12:58:14+0000,https://www.nytimes.com/2020/02/19/health/coronavirus-animals-markets.html,0, ,0.5,0.5,0.508537,0.535248,0.696476,0.5,0.5
+The New York Times,2020-02-20T20:03:49+0000,https://www.nytimes.com/2020/02/20/health/coronavirus-men-women.html,0, ,0.5,0.5,0.512669,0.578541,0.647895,0.5,0.766372

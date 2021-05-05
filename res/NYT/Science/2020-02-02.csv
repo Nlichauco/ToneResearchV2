@@ -1,0 +1,9 @@
+Source,Date,URL,Score,   ,Anger,Fear,Joy,Sad,Analy,Confi,Tenta
+The New York Times,2020-02-06T20:45:19+0000,https://www.nytimes.com/2020/02/06/health/coronavirus-misinformation-social-media.html,0, ,0.5,0.5,0.522876,0.555692,0.5,0.5,0.628066
+The New York Times,2020-02-05T20:06:39+0000,https://www.nytimes.com/2020/02/05/health/coronavirus-children.html,0, ,0.5,0.5,0.5,0.578897,0.640674,0.5,0.709229
+The New York Times,2020-02-06T22:50:44+0000,https://www.nytimes.com/2020/02/06/health/coronavirus-treatments.html,0, ,0.5,0.5,0.509631,0.542764,0.663451,0.5,0.5
+The New York Times,2020-02-07T23:51:06+0000,https://www.nytimes.com/2020/02/07/health/hospitals-coronavirus.html,0, ,0.5,0.540703,0.5,0.527249,0.653609,0.5,0.532904
+The New York Times,2020-02-02T19:35:20+0000,https://www.nytimes.com/2020/02/02/health/coronavirus-pandemic-china.html,0, ,0.5,0.557223,0.5,0.575406,0.586492,0.5,0.829218
+The New York Times,2020-02-08T00:10:16+0000,https://www.nytimes.com/2020/02/07/health/coronavirus-patients.html,0, ,0.5,0.5,0.5,0.622376,0.606689,0.5,0.606682
+The New York Times,2020-02-05T00:53:35+0000,https://www.nytimes.com/2020/02/04/health/coronavirus-symptoms-germany.html,0, ,0.5,0.5,0.503121,0.532196,0.51111,0.5,0.538138
+The New York Times,2020-02-07T23:37:06+0000,https://www.nytimes.com/2020/02/07/health/cdc-coronavirus-china.html,0, ,0.5,0.5,0.513458,0.546543,0.518406,0.5,0.61101

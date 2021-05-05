@@ -1,0 +1,27 @@
+Source,Date,URL,Score,   ,Anger,Fear,Joy,Sad,Analy,Confi,Tenta
+The New York Times,2020-05-23T07:00:09+0000,https://www.nytimes.com/2020/05/23/sports/soccer/coronavirus-soccer-portugal-return.html,0, ,0.5,0.5,0.528961,0.55016,0.506172,0.5,0.5
+The New York Times,2020-05-23T00:02:08+0000,https://www.nytimes.com/2020/05/22/sports/basketball/patrick-ewing-coronavirus.html,0, ,0.5,0.5,0.624103,0.5,0.619409,0.5,0.5
+The New York Times,2020-05-23T07:00:08+0000,https://www.nytimes.com/2020/05/23/sports/the-new-training-facilities-backyard-gym-hallway-track.html,0, ,0.5,0.5,0.632847,0.5,0.5,0.5,0.70865
+The New York Times,2020-05-23T09:00:25+0000,https://www.nytimes.com/2020/05/23/sports/coronavirus-athletes.html,0, ,0.5,0.538542,0.534427,0.573386,0.510396,0.5,0.723782
+The New York Times,2020-05-22T07:00:06+0000,https://www.nytimes.com/2020/05/22/sports/olympics/coronavirus-tokyo-olympics.html,0, ,0.5,0.5,0.585343,0.601768,0.5,0.5,0.5
+The New York Times,2020-05-23T16:52:05+0000,https://www.nytimes.com/2020/05/23/sports/basketball/nba-disney-world-orlando.html,0, ,0.5,0.5,0.5,0.572305,0.551988,0.5,0.657465
+The New York Times,2020-05-22T15:53:15+0000,https://www.nytimes.com/2020/05/22/sports/swimming-regan-smith.html,0, ,0.5,0.5,0.612304,0.533986,0.5,0.5,0.746928
+The New York Times,2020-05-22T15:26:09+0000,https://www.nytimes.com/2020/05/22/sports/olympics/sunisa-lee-gymnast-coronavirus.html,0, ,0.5,0.541823,0.535093,0.590391,0.5,0.5,0.542307
+The New York Times,2020-05-20T14:00:09+0000,https://www.nytimes.com/2020/05/20/sports/coronavirus-sports-fans.html,0, ,0.5,0.5,0.536653,0.530072,0.586738,0.5,0.518116
+The New York Times,2020-05-18T23:03:38+0000,https://www.nytimes.com/2020/05/18/sports/sports-governors-no-fans.html,0, ,0.5,0.5,0.588699,0.5,0.5,0.5,0.5
+The New York Times,2020-05-22T22:12:18+0000,https://www.nytimes.com/2020/05/22/sports/soccer/coronavirus-athletic-bilbao.html,0, ,0.5,0.5,0.534167,0.512455,0.698899,0.5,0.58823
+The New York Times,2020-05-19T15:49:28+0000,https://www.nytimes.com/2020/05/19/sports/horse-racing/belmont-stakes-triple-crown.html,0, ,0.5,0.5,0.598888,0.5,0.5,0.5,0.616719
+The New York Times,2020-05-18T17:51:16+0000,https://www.nytimes.com/2020/05/18/sports/england-scotland-soccer-return.html,0, ,0.5,0.5,0.572359,0.520906,0.5,0.5,0.637584
+The New York Times,2020-05-18T12:00:07+0000,https://www.nytimes.com/2020/05/18/sports/autoracing/nascar-darlington-return.html,0, ,0.5,0.5,0.513405,0.578378,0.5,0.5,0.511038
+The New York Times,2020-05-19T05:00:09+0000,https://www.nytimes.com/2020/05/19/sports/baseball/mlb-prospects-training-coronavirus.html,0, ,0.5,0.5,0.571434,0.509488,0.5,0.5,0.701986
+The New York Times,2020-05-17T22:06:05+0000,https://www.nytimes.com/2020/05/17/sports/golf/rory-mcilroy-trump-pga.html,0, ,0.5,0.5,0.606234,0.522732,0.5,0.5,0.5
+The New York Times,2020-05-18T11:00:06+0000,https://www.nytimes.com/2020/05/18/sports/golf/rory-mcilroy-pga-skins-seminole.html,0, ,0.5,0.5,0.576281,0.5,0.524071,0.5,0.570454
+The New York Times,2020-05-18T06:00:13+0000,https://www.nytimes.com/2020/05/18/sports/soccer/bundesliga-soccer-fans.html,0, ,0.5,0.5,0.576378,0.5,0.550872,0.5,0.602342
+The New York Times,2020-05-18T22:22:37+0000,https://www.nytimes.com/2020/05/18/sports/golf/us-open-mens-womens-qualify.html,0, ,0.5,0.5,0.591822,0.5,0.5,0.5,0.5
+The New York Times,2020-05-20T14:30:06+0000,https://www.nytimes.com/2020/05/20/sports/golf/tiger-woods-phil-mickelson-brady-manning.html,0, ,0.5,0.5,0.615766,0.517167,0.5,0.5,0.673965
+The New York Times,2020-05-17T09:00:09+0000,https://www.nytimes.com/2020/05/17/sports/ncaafootball/college-football-no-fans.html,0, ,0.5,0.5,0.521794,0.516705,0.631929,0.5,0.711785
+The New York Times,2020-05-20T15:09:49+0000,https://www.nytimes.com/2020/05/20/sports/basketball/michael-jordan-last-dance.html,0, ,0.5,0.5,0.585284,0.50101,0.5,0.5,0.553947
+The New York Times,2020-05-21T13:31:21+0000,https://www.nytimes.com/2020/05/21/sports/1080-skateboarder-gui-khury.html,0, ,0.5,0.5,0.58336,0.553873,0.5,0.5,0.5
+The New York Times,2020-05-19T20:32:00+0000,https://www.nytimes.com/2020/05/19/sports/football/nfl-rooney-rule-minority-coaches.html,0, ,0.5,0.5,0.5,0.533681,0.712063,0.5,0.5
+The New York Times,2020-05-23T04:30:06+0000,https://www.nytimes.com/2020/05/23/sports/hockey/akim-aliu-nhl-racism.html,0, ,0.5,0.5,0.5,0.5,0.588229,0.5,0.5
+The New York Times,2020-05-19T05:00:07+0000,https://www.nytimes.com/2020/05/19/sports/soccer/aritz-aduriz-bilbao.html,0, ,0.5,0.5,0.61496,0.574612,0.5,0.5,0.819485
