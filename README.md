@@ -43,9 +43,3 @@ __Compiling__
   *  While in terminal, in the correct directory type $ python [filename.py]
 ************************************  
 
-
-
-
-
-
-
