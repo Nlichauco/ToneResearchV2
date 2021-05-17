@@ -490,7 +490,19 @@ def overall_comparison2(mode):
 
 
 
+"""
+Add traces for plot contains Fear, Sad, Tentative and Analyitical. For sports, business, politics and opinion. 
+Args:
+    fig: the plot object
+    df: data frame 1 (sports)
+    df1: data frame 2 (business)
+    df2: data frame 3 (politics)
+    df3: data frame 4  (opinion)
+    tag: avg or total or Percentage
 
+Returns:
+    Config the plot object
+    """
 
 def confi_tenta2(fig, df, df1, df2, df3, tag):
     fig.add_traces(
@@ -537,8 +549,22 @@ def confi_tenta2(fig, df, df1, df2, df3, tag):
 
 
 
+"""
+Adds second Yaxis to the bydesk plot. 
+Args:
+    fig: the plot object
+    covid: Any csv file (sports, business, politics or opinion)
+    df: US covid average csv
+     
+    
 
-def desk_add_second_yaxis(fig, covid, h1n1, df, df1, df2, df3):
+Returns:
+    Config the plot object
+    """
+
+
+
+def desk_add_second_yaxis(fig, covid, df):
     fig.add_trace(go.Scatter(x=covid['Week'], y=df['cases'], name="US Covid Cases", fill='tozeroy'), row=1,
                   col=1, secondary_y=True)
 
@@ -552,6 +578,16 @@ def desk_add_second_yaxis(fig, covid, h1n1, df, df1, df2, df3):
                   col=2, secondary_y=True)
 
 
+"""
+Plots Fear Sad Tentative and Analytical tones by desk for the NYT 
+Args:
+    mode: Percentage or Overall or Average
+     
+    
+
+Returns:
+    Either a US ONLY percentage, average or cumulative based plot, where each subplot is one tone, and each trace is a desks trend of that tone.
+    """
 
 def bydesk(mode):
 
@@ -580,9 +616,7 @@ def bydesk(mode):
 
     confi_tenta2(fig, df, df1, df2, df3, tag)
     subplot_config3(fig, 'NYT-'+mode + ' Tone Score Comparison by Desk', tag)
-    desk_add_second_yaxis(fig, df, df2, pd.read_csv('res/CovidData/UScovidAVG.csv'),
-                     pd.read_csv('res/CovidData/UScovidAVG.csv'), pd.read_csv('res/CovidData/UScovidAVG.csv'),
-                     pd.read_csv('res/CovidData/UScovidAVG.csv'))
+    desk_add_second_yaxis(fig, df, pd.read_csv('res/CovidData/UScovidAVG.csv'))
 
 
 
@@ -594,6 +628,18 @@ def bydesk(mode):
     fig.show()
 
 
+"""
+Adds second Yaxis to the bydesk plot. 
+Args:
+    fig: the plot object
+    t: Title for the plot
+    tag: type of plot, either avg, total, or ratio. 
+     
+    
+
+Returns:
+    Config the plot object
+    """
 
 def subplot_config3(fig, t, tag):
     fig.update_layout(height=800, width=1500,
@@ -700,6 +746,17 @@ def subplot_config3(fig, t, tag):
             )
         )
 
+"""
+Adds second Yaxis to the bydesk plot. 
+Args:
+    
+    mode: avg, Overall, or Percentage
+     
+    
+
+Returns:
+    Plots the tone scores for anger tentative sad and fear for NYT and GRD COV-19 and H1N1.
+    """
 
 def overall_comparison3(mode):
     fig = make_subplots(
@@ -727,6 +784,50 @@ def overall_comparison3(mode):
     subplot_config2(fig, mode + ' Tone Score Comparison, Covid-19 vs H1N1-09', tag)
 
     fig.show()
+
+
+"""
+Adds second Yaxis to the bydesk plot. 
+Args:
+    fig: the plot object
+    df: data frame 1 
+    df1: data frame 2
+    df2: data frame 3 
+    df3: data frame 4  
+    tag: avg or total or Percentage
+    
+     
+    
+
+Returns:
+    addes traces to fig
+    """
+
+def some_tone_four_plot2US(fig, df, df1, df2, df3, tag):
+    fig.add_traces(
+        [
+         go.Scatter(x=df['Week'], y=df["Anger_" + tag], name="Anger", mode='lines+markers',
+                    marker=dict(color='blue', symbol=symbols[1]), line=dict(color='blue')),
+         go.Scatter(x=df['Week'], y=df["Tenta_" + tag], name="Tentative", mode='lines+markers',
+                    marker=dict(color='green', symbol=symbols[2]), line=dict(color='green')),
+         go.Scatter(x=df['Week'], y=df["Sad_" + tag], name="Sad", mode='lines+markers',
+                    marker=dict(color='goldenrod', symbol=symbols[3]), line=dict(color='goldenrod')),
+         go.Scatter(x=df['Week'], y=df["Fear_" + tag], name="Fear", mode='lines+markers',
+                    marker=dict(color='magenta', symbol=symbols[5]), line=dict(color='magenta')),
+         ], rows=1, cols=1)
+
+    fig.add_traces(
+        [ anger(df1, tag), tentative(df1, tag), sad(df1, tag),fear(df1, tag)],
+        rows=1, cols=2)
+
+    fig.add_traces(
+        [ anger(df2, tag), tentative(df2, tag), sad(df2, tag),fear(df2, tag)],
+        rows=2, cols=1)
+
+    fig.add_traces(
+        [ anger(df3, tag), tentative(df3, tag), sad(df3, tag),fear(df3, tag)],
+        rows=2, cols=2)
+
 
 
 
