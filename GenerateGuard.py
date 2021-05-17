@@ -1,7 +1,7 @@
 import csv
 from datetime import date
 import json
-import pyjq
+
 import requests
 
 # from GetDate import get_date_guardian_format

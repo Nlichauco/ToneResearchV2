@@ -2,7 +2,7 @@ import csv
 import json
 from datetime import date
 
-import pyjq
+
 import requests
 from bs4 import BeautifulSoup
 from requests.exceptions import SSLError

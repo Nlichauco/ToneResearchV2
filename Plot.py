@@ -9,7 +9,7 @@ for i in range(0, len(raw_symbols), 12):
     symbols.append(raw_symbols[i])
 
 """
-Create sad trace 
+Create sad trace
 Args:
     df: DataFrame with the data and labels from the file data.
     tag: avg or total
@@ -25,7 +25,7 @@ def sad(df, tag):
 
 
 """
-Create analytical trace 
+Create analytical trace
 Args:
     df: DataFrame with the data and labels from the file data.
     tag: avg or total
@@ -41,7 +41,7 @@ def analytical(df, tag):
 
 
 """
-Create anger trace 
+Create anger trace
 Args:
     df: DataFrame with the data and labels from the file data.
     tag: avg or total
@@ -57,7 +57,7 @@ def anger(df, tag):
 
 
 """
-Create tentative trace 
+Create tentative trace
 Args:
     df: DataFrame with the data and labels from the file data.
     tag: avg or total
@@ -73,7 +73,7 @@ def tentative(df, tag):
 
 
 """
-Create joy trace 
+Create joy trace
 Args:
     df: DataFrame with the data and labels from the file data.
     tag: avg or total
@@ -89,7 +89,7 @@ def joy(df, tag):
 
 
 """
-Create fear trace 
+Create fear trace
 Args:
     df: DataFrame with the data and labels from the file data.
     tag: avg or total
@@ -105,7 +105,7 @@ def fear(df, tag):
 
 
 """
-Create confidence trace 
+Create confidence trace
 Args:
     df: DataFrame with the data and labels from the file data.
     tag: avg or total
@@ -157,7 +157,7 @@ def fear_sad_anger(fig, df, df1, df2, df3, tag):
 """
 Plots Fear vs sad vs anger
 Args:
-    mode: average or overall, in string form  
+    mode: average or overall, in string form
 
 Returns:
     Nothing, creates a plot.
@@ -181,6 +181,8 @@ def fear_vs_sad_vs_anger(mode):
     tag = "avg"
     if mode == "Overall":
         tag = "total"
+    if mode =="Percentage":
+        tag="ratio"
 
     fear_sad_anger(fig, df, df1, df2, df3, tag)
     add_second_yaxis(fig, df, df2, pd.read_csv('res/CovidData/UScovidAVG.csv'),
@@ -227,7 +229,7 @@ def confi_tenta_analy(fig, df, df1, df2, df3, tag):
 """
 Plots confidence vs tentative vs analytical
 Args:
-    mode: average or overall, in string form  
+    mode: average or overall, in string form
 
 Returns:
     Nothing, creates a plot.
@@ -251,6 +253,8 @@ def confi_vs_tenta_vs_analy(mode):
     tag = "avg"
     if mode == "Overall":
         tag = "total"
+    if mode=="Percentage":
+        tag="ratio"
 
     confi_tenta_analy(fig, df, df1, df2, df3, tag)
     add_second_yaxis(fig, df, df2, pd.read_csv('res/CovidData/UScovidAVG.csv'),
@@ -413,6 +417,22 @@ def subplot_config2(fig, t, tag):
                 range=[0.5, 1]
             )
         )
+    elif tag=="ratio":
+        fig.update_layout(
+            yaxis=dict(
+                range=[0, 100]
+            ),
+            yaxis3=dict(
+                range=[0, 100],
+            ),
+            yaxis5=dict(
+                range=[0, 100]
+            ),
+            yaxis7=dict(
+                range=[0, 100]
+            )
+        )
+
     else:
         fig.update_layout(
             yaxis=dict(
@@ -431,9 +451,9 @@ def subplot_config2(fig, t, tag):
 
 
 """
-Plots Seven tones 
+Plots Seven tones
 Args:
-    mode: average or overall, in string form  
+    mode: average or overall, in string form
 
 Returns:
     Nothing, creates a plot.
@@ -457,7 +477,8 @@ def overall_comparison2(mode):
     tag = "avg"
     if mode == "Overall":
         tag = "total"
-
+    if mode=="Percentage":
+        tag="ratio"
     all_tone_four_plot2US(fig, df, df1, df2, df3, tag)
     add_second_yaxis(fig, df, df2, pd.read_csv('res/CovidData/UScovidAVG.csv'),
                      pd.read_csv('res/CovidData/UKcovidAVG.csv'), pd.read_csv('res/H1N1Data/us.csv'),
@@ -465,6 +486,248 @@ def overall_comparison2(mode):
     subplot_config2(fig, mode + ' Tone Score Comparison, Covid-19 vs H1N1-09', tag)
 
     fig.show()
+
+
+
+
+
+
+def confi_tenta2(fig, df, df1, df2, df3, tag):
+    fig.add_traces(
+        [go.Scatter(x=df['Week'], y=df["Fear_" + tag], name="Sports", mode='lines+markers',
+                    marker=dict(color='pink', symbol=symbols[0]), line=dict(color='pink'),showlegend=False),
+         go.Scatter(x=df1['Week'], y=df1["Fear_" + tag], name="Business", mode='lines+markers',
+                    marker=dict(color='green', symbol=symbols[2]), line=dict(color='green'),showlegend=False),
+        go.Scatter(x=df2['Week'], y=df2["Fear_" + tag], name="Politics", mode='lines+markers',
+                    marker=dict(color='green', symbol=symbols[4]), line=dict(color='blue'),showlegend=False),
+        go.Scatter(x=df3['Week'], y=df3["Fear_" + tag], name="Opinion", mode='lines+markers',
+                    marker=dict(color='green', symbol=symbols[6]), line=dict(color='red'),showlegend=False)], rows=1, cols=1)
+
+    fig.add_traces(
+        [go.Scatter(x=df['Week'], y=df["Sad_" + tag],  mode='lines+markers',
+                    marker=dict(color='pink', symbol=symbols[0]), line=dict(color='pink'),showlegend=False),
+         go.Scatter(x=df1['Week'], y=df1["Sad_" + tag],  mode='lines+markers',
+                    marker=dict(color='green', symbol=symbols[2]), line=dict(color='green'),showlegend=False),
+        go.Scatter(x=df2['Week'], y=df2["Sad_" + tag],  mode='lines+markers',
+                    marker=dict(color='green', symbol=symbols[4]), line=dict(color='blue'),showlegend=False),
+        go.Scatter(x=df3['Week'], y=df3["Sad_" + tag],  mode='lines+markers',
+                    marker=dict(color='green', symbol=symbols[6]), line=dict(color='red'),showlegend=False)], rows=1, cols=2)
+
+    fig.add_traces(
+        [go.Scatter(x=df['Week'], y=df["Tenta_" + tag], name="Sports", mode='lines+markers',
+                    marker=dict(color='pink', symbol=symbols[0]), line=dict(color='pink'),showlegend=False),
+         go.Scatter(x=df1['Week'], y=df1["Tenta_" + tag], name="Business", mode='lines+markers',
+                    marker=dict(color='green', symbol=symbols[2]), line=dict(color='green'),showlegend=False),
+        go.Scatter(x=df2['Week'], y=df2["Tenta_" + tag], name="Politics", mode='lines+markers',
+                    marker=dict(color='green', symbol=symbols[4]), line=dict(color='blue'),showlegend=False),
+        go.Scatter(x=df3['Week'], y=df3["Tenta_" + tag], name="Opinion", mode='lines+markers',
+                    marker=dict(color='green', symbol=symbols[6]), line=dict(color='red'),showlegend=False)], rows=2, cols=1)
+
+    fig.add_traces(
+        [go.Scatter(x=df['Week'], y=df["Analy_" + tag], name="Sports", mode='lines+markers',
+                    marker=dict(color='pink', symbol=symbols[0]), line=dict(color='pink')),
+         go.Scatter(x=df1['Week'], y=df1["Analy_" + tag], name="Business", mode='lines+markers',
+                    marker=dict(color='green', symbol=symbols[2]), line=dict(color='green')),
+        go.Scatter(x=df2['Week'], y=df2["Analy_" + tag], name="Politics", mode='lines+markers',
+                    marker=dict(color='green', symbol=symbols[4]), line=dict(color='blue')),
+        go.Scatter(x=df3['Week'], y=df3["Analy_" + tag], name="Opinion", mode='lines+markers',
+                    marker=dict(color='green', symbol=symbols[6]), line=dict(color='red'))], rows=2, cols=2)
+
+
+
+
+
+
+def desk_add_second_yaxis(fig, covid, h1n1, df, df1, df2, df3):
+    fig.add_trace(go.Scatter(x=covid['Week'], y=df['cases'], name="US Covid Cases", fill='tozeroy'), row=1,
+                  col=1, secondary_y=True)
+
+    fig.add_trace(go.Scatter(x=covid['Week'], y=df['cases'], name="US Covid Cases", fill='tozeroy',showlegend=False), row=1,
+                  col=2, secondary_y=True)
+
+    fig.add_trace(go.Scatter(x=covid['Week'], y=df['cases'], name="US Covid Cases", fill='tozeroy',showlegend=False), row=2,
+                  col=1, secondary_y=True)
+
+    fig.add_trace(go.Scatter(x=covid['Week'], y=df['cases'], name="US Covid Cases", fill='tozeroy',showlegend=False), row=2,
+                  col=2, secondary_y=True)
+
+
+
+def bydesk(mode):
+
+    fig = make_subplots(
+        vertical_spacing=0.15,
+        horizontal_spacing=0.10,
+        rows=2, cols=2,
+        subplot_titles=(
+            "Fear", "Sad", "Tentative", "Analytical"),
+        specs=[[{"secondary_y": True}, {"secondary_y": True}],
+               [{"secondary_y": True}, {"secondary_y": True}]])
+
+
+
+    df = pd.read_csv('/Users/nathaniel/Desktop/Tone-Research/res/NYT/Sports.csv')
+    df1 = pd.read_csv('/Users/nathaniel/Desktop/Tone-Research/res/NYT/Business.csv')
+    df2 = pd.read_csv('/Users/nathaniel/Desktop/Tone-Research/res/NYT/Politics.csv')
+    df3 = pd.read_csv('/Users/nathaniel/Desktop/Tone-Research/res/NYT/Opinion.csv')
+    tag="avg"
+    if mode=="Percentage":
+        tag="ratio"
+    elif mode=="Overall":
+        tag="total"
+
+
+
+    confi_tenta2(fig, df, df1, df2, df3, tag)
+    subplot_config3(fig, 'NYT-'+mode + ' Tone Score Comparison by Desk', tag)
+    desk_add_second_yaxis(fig, df, df2, pd.read_csv('res/CovidData/UScovidAVG.csv'),
+                     pd.read_csv('res/CovidData/UScovidAVG.csv'), pd.read_csv('res/CovidData/UScovidAVG.csv'),
+                     pd.read_csv('res/CovidData/UScovidAVG.csv'))
+
+
+
+
+    fig.update_layout(legend_borderwidth=6)
+    fig.update_layout(legend_bordercolor='#fff')
+    fig.update_layout(title_xanchor="center")
+    fig.update_layout(title_pad_b=100)
+    fig.show()
+
+
+
+def subplot_config3(fig, t, tag):
+    fig.update_layout(height=800, width=1500,
+                      title={
+                          'text': t,
+                          'y': 0.95,
+                          'x': 0.5,
+                          'xanchor': 'center',
+                          'yanchor': 'top'
+
+                      })
+    name = "Average"
+    if tag == "total":
+        name = "Total"
+    if tag=="ratio":
+        name="Percentage"
+    fig.update_yaxes(title_font_size=18, showgrid=True, gridcolor='black',
+                     zeroline=True, zerolinewidth=1, zerolinecolor='black')
+    fig.update_layout(
+        width=1200,
+        paper_bgcolor='rgba(0,0,0,0)',
+        plot_bgcolor='rgba(0,0,0,0)', title_font_size=20, autosize=True,
+        margin=dict(
+            pad=10
+        ))
+    # fig.update_layout(legend=dict(
+    #     orientation="v",
+    #     yanchor="bottom",
+    #     y=1.02,
+    #     xanchor="right",
+    #
+    #     x=1
+    # ))
+    fig.update_layout(legend=dict(
+
+        y=1.02,
+        x=1
+    ))
+
+    fig.update_layout(legend_borderwidth=6)
+    fig.update_layout(legend_bordercolor='#fff')
+    fig.update_layout(title_xanchor="center")
+
+    fig.update_layout(title_pad_b=100)
+
+    fig.update_layout(
+        yaxis2=dict(
+            range=[0, 250000],
+        ),
+        yaxis4=dict(
+            range=[0, 250000],
+        ),
+        yaxis6=dict(
+            range=[0, 250000],
+        ),
+        yaxis8=dict(
+            range=[0, 250000],
+        )
+    )
+
+    if tag == "avg":
+        fig.update_layout(
+            yaxis=dict(
+                range=[0.5, 1]
+            ),
+            yaxis3=dict(
+                range=[0.5, 1],
+            ),
+            yaxis5=dict(
+                range=[0.5, 1]
+            ),
+            yaxis7=dict(
+                range=[0.5, 1]
+            )
+        )
+    elif tag=="ratio":
+        fig.update_layout(
+            yaxis=dict(
+                range=[0, 100]
+            ),
+            yaxis3=dict(
+                range=[0, 100],
+            ),
+            yaxis5=dict(
+                range=[0, 100]
+            ),
+            yaxis7=dict(
+                range=[0, 100]
+            )
+        )
+    else:
+        fig.update_layout(
+            yaxis=dict(
+                range=[0, 25]
+            ),
+            yaxis3=dict(
+                range=[0.5, 75],
+            ),
+            yaxis5=dict(
+                range=[0, 55]
+            ),
+            yaxis7=dict(
+                range=[0, 50]
+            )
+        )
+
+
+def overall_comparison3(mode):
+    fig = make_subplots(
+        vertical_spacing=0.15,
+        horizontal_spacing=0.10,
+        rows=2, cols=2,
+        subplot_titles=(
+            "COVID-19 NYT", "COVID-19 GRD", "H1N1-09 NYT", "H1N1-09 GRD"),
+        specs=[[{"secondary_y": True}, {"secondary_y": True}],
+               [{"secondary_y": True}, {"secondary_y": True}]])
+
+    df = pd.read_csv('NYT_overall.csv')
+    df1 = pd.read_csv('Guardian_overall.csv')
+    df2 = pd.read_csv('res/H1N1/NYT.csv')
+    df3 = pd.read_csv('res/H1N1/Guardian.csv')
+    tag = "avg"
+    if mode == "Overall":
+        tag = "total"
+    if mode=="Percentage":
+        tag="ratio"
+    some_tone_four_plot2US(fig, df, df1, df2, df3, tag)
+    add_second_yaxis(fig, df, df2, pd.read_csv('res/CovidData/UScovidAVG.csv'),
+                     pd.read_csv('res/CovidData/UKcovidAVG.csv'), pd.read_csv('res/H1N1Data/us.csv'),
+                     pd.read_csv('res/H1N1Data/uk.csv'))
+    subplot_config2(fig, mode + ' Tone Score Comparison, Covid-19 vs H1N1-09', tag)
+
+    fig.show()
+
 
 
 # tentative_vs_fear_vs_sad_vs_anger("Average")

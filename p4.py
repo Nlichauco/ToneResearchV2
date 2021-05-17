@@ -39,6 +39,12 @@ def sum_total(path):
     return res
 
 
+def NYTclean(url):
+    return (
+                       'coronavirus' not in url and 'covid' not in url and 'virus' not in url and 'pandemic' not in url and 'vaccine' not in url) or 'interactive' in url or 'photo' in url or 'video' in url or "podcast" in url or "quotation-of-the-day" in url
+
+
+
 def clean(url):
     return ('coronavirus' not in url and 'covid' not in url and 'virus' not in url and 'pandemic' not in url
             and 'vaccine' not in url) or 'interactive' in url or "picture" in url or "photo" in url or "movie" in url \
