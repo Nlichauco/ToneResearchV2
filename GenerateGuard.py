@@ -105,12 +105,28 @@ def Gpull(que):
     return body, arts, num_docs, num_pages
 
 
+"""
+    Creates a template file with the name it is given. This file is added to.
+    Args:
+        file_name: this is typically the week that this file is associated with. 
+    Returns:
+         Creates a file with file_name"""
+
 def create_template(file_name):
     with open(file_name, 'w') as file:
         writer = csv.writer(file)
         writer.writerow(
             ["Source", "Date", "URL", "Score", "   ", "Anger", "Fear", "Joy", "Sad", "Analy", "Confi", "Tenta"])
 
+
+"""
+    Calls the pull function and scores articles, and adds articles to the csv
+    Args:
+        que: The query used to call the GRD API
+        filename: The date correlated with the API call
+            
+    Returns:
+         the number of pages in the response"""
 
 def fetch_from_guardian(que, filename):
     texts, articles, amt, pages = Gpull(que)
@@ -122,6 +138,18 @@ def fetch_from_guardian(que, filename):
     create_csv(articles, filename)
     return pages
 
+"""
+    Queries the Guardian API for a specific range of dates. Queries each set of dates one by one.   
+    Args:
+        s_dates: Array of start dates
+        e_dates: Array of end dates
+        keyword: subject of interest
+        APIkey: APIkey required to get access to the API
+        sectionName: The section of interest (business / politics etc.)
+            
+    Returns:
+         Calls all the functions in order to create week by week csvs and score each article of each week using IBM Watson
+          """
 
 def Guardpull(s_dates, e_dates, keyword, APIkey, sectionName):
     for i in range(0, len(s_dates)):
