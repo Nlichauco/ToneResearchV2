@@ -12,6 +12,18 @@ from ToneAnalyzer import tone_analyze
 from entity.Article import Article
 
 
+"""
+    Checks each week for the amount of articles, if there are enough articles each one will be scored and added to a csv for that week.
+
+    
+
+    Args:
+        que: An api query
+        file_name: date range for the week queried
+
+    Returns: The number of results on the page returned from the API. 
+         """
+
 def fetch_from_nyt(que, file_name):
     urls, articles, amt = pull(que)
     if amt < 1:
@@ -128,6 +140,17 @@ def create_template(file_name):
         writer.writerow(
             ["Source", "Date", "URL", "Score", "   ", "Anger", "Fear", "Joy", "Sad", "Analy", "Confi", "Tenta"])
 
+"""
+
+    Appends each article with all tone scores to the template created for that week. 
+
+    Args:
+        articles: the articles objects for that week, each object holds all corresponding tone scores 
+        file_name: the name of the file to append to. 
+
+    Returns:
+         A list of urls, and a list of article class objects, the number of responses(articles in json) is also returned
+         to check for 0 results"""
 
 def create_csv(articles, file_name):
     with open(file_name, 'a') as file:
